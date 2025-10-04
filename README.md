@@ -173,33 +173,9 @@ img = Image.open(image_path).convert("RGB")
     print(f"Prediction: {result} ({prob:.2f}% confidence)")
     return result
 ```
-
-
 ## Output
 
-img = Image.open(image_path).convert("RGB")
-    transform = test_transforms
-    img_tensor = transform(img).unsqueeze(0).to(device)
 
-    model.eval()
-    with torch.no_grad():
-        outputs = model(img_tensor)
-        _, pred = torch.max(outputs, 1)
-        prob = torch.softmax(outputs, dim=1)[0][pred].item() * 100
-
-    result = class_names[pred.item()]
-    print(f"Prediction: {result} ({prob:.2f}% confidence)")
-    return result
-```
-
-
-## Output
-
-<img width="628" height="750" alt="17595598642942306458894155605962" src="https://github.com/user-attachments/assets/bc3962e5-fe77-41b0-b876-af28daa9e1bf" />
-
-## Result
-
-successfully implmentment of classificer identifying cats,dogs and pandas using pytorch
 
 ## Result
 
