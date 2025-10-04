@@ -175,7 +175,8 @@ img = Image.open(image_path).convert("RGB")
 ```
 ## Output
 
-<img width="628" height="750" alt="17595601664732252439350242210221" src="https://github.com/user-attachments/assets/cb602cf6-d550-4d28-942e-728b43dc34e0" />
+<img width="628" height="750" alt="17595602757273764985226447575236" src="https://github.com/user-attachments/assets/6e2be3f6-82a4-4510-9ae4-b5fbca805b0a" />
+
 
 ## Result
 
